@@ -8,5 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-<br>
 ![Alt text] (https://github.com/LRSCardoso/LRSCardoso.github.io/pics/g422.png)
