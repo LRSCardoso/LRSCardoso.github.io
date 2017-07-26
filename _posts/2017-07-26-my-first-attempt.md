@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![Alt Text](/pics/g422.png)
+![Alt Text](/_images/g422.png)
