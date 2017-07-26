@@ -1,10 +1,10 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: LRSCardoso
+description: my raves about Data Vis, Maps, Qgis, Python, Postgres ..  
+meta_description: "work in progress"
 
 markdown: kramdown
 highlighter: pygments
-logo: false
+logo: True
 paginate: 15
 baseurl: /
 domain_name: 'http://yourblog-domain.com'
