@@ -9,4 +9,4 @@ This is just my **first attempt**
 <br>
 just trying 
 <br>
-![image] ( /pics/g422.png)
+![image] (https://github.com/LRSCardoso/LRSCardoso.github.io/pics/g422.png)
