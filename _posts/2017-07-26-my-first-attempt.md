@@ -9,4 +9,4 @@ This is just my **first attempt**
 <br>
 just trying 
 <br>
-![Alt image] (https://github.com/LRSCardoso/LRSCardoso.github.io/pics/g422.png)
+![Alt text] (https://github.com/LRSCardoso/LRSCardoso.github.io/pics/g422.png)
