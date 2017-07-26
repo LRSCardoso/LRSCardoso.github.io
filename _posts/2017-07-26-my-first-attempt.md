@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![image] (https://github.com/LRSCardoso/LRSCardoso.github.io/tree/master/pics/g422.png)
+![image] (pics/g422.png ?raw=true )
