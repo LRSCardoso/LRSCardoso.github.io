@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="480" height="360" onload="init(evt)">
+
+   <script type="text/ecmascript">
+    <![CDATA[
+        var svgDocument;
+        var svgNS = "http://www.w3.org/2000/svg";
+        var xlinkNS = "http://www.w3.org/1999/xlink";
+        
+        var centerX;
+        var centerY;
+        var angles = [];
+        var distances = [];
+        var maxD = 1000;
+        var nStars = 35;
+        
+        function init(evt) {
+            if ( window.svgDocument == null ) {
+                svgDocument = evt.target.ownerDocument;
+            }
+            
+            centerX = svgDocument.childNodes[0].getAttributeNS(null, 'width')/2;
+            centerY = svgDocument.childNodes[0].getAttributeNS(null, 'height')/2;
+            maxD = Math.sqrt(centerX * centerX + centerY * centerY) + 40;
+
+            createStars(nStars);
+            beginAnimation();
+        }f
+   
+        function createStars(n) {
+            for (var i=1; i<=n; i++) {
+                var star = document.createElementNS(svgNS, "use");
+                star.setAttributeNS(null, "id", "star" + i);	
+                star.setAttributeNS(xlinkNS, "href", "#star");			
+                document.getElementById("star-group").appendChild(star);
+                angles.push(Math.PI * 2 * Math.random());
+                distances.push(maxD * Math.random());
+            }
+        }
+   
+        function drawField() {
+            for (var i=0; i<nStars; i++) {
+                var star = svgDocument.getElementById('star' + (i+1));
+                var d = distances[i];
+                var x = centerX + d * Math.sin(angles[i]);
+                var y = centerY + d * Math.cos(angles[i]);
+                var scale = 2*(1 - (maxD / (d+maxD)));
+                
+                star.setAttributeNS(null, 'transform', 'translate(' + x + ',' + y + ') scale(' + scale*scale + ')');
+            }
+        }
+   
+        function updateImage() {
+            for (var i=0; i<nStars; i++) {
+                distances[i]++;
+                if (distances[i] > maxD) {
+                    distances[i] = 0;
+                }
+            }
+            drawField();
+        }
+   
+        function beginAnimation() {
+            var timeout = setInterval(updateImage, 10);
+        }
+        
+    ]]>
+   </script>
+    
+    <defs>
+        <path id="star" fill="#ee2" d="M-4 -17.2L-8.7 -3.6 -23.1 -3.3 -11.6 5.4 -15.8 19.2 -4 11 7.9 19.2 3.7 5.4 15.2 -3.3 0.8 -3.6z"/>
+    </defs>
+    
+    <rect width="480" height="360" fill="#228"/>
+    <g id="star-group"><use id="star1" xlink:href="#star" transform="translate(280.40344123494316,250.20371739711862) scale(0.14806957758080802)"/><use id="star2" xlink:href="#star" transform="translate(-33.934925361575324,105.06231477321872) scale(0.8285667324128865)"/><use id="star3" xlink:href="#star" transform="translate(257.76162540116906,290.58265986631244) scale(0.2455947999060225)"/><use id="star4" xlink:href="#star" transform="translate(425.6558891442239,168.69111738200291) scale(0.5001662594514884)"/><use id="star5" xlink:href="#star" transform="translate(242.77834159088647,96.04596008526838) scale(0.15699537201851185)"/><use id="star6" xlink:href="#star" transform="translate(161.1938705382355,504.56985990577687) scale(0.9822750926749377)"/><use id="star7" xlink:href="#star" transform="translate(254.70341718157295,201.44316961609513) scale(0.020185732628624307)"/><use id="star8" xlink:href="#star" transform="translate(87.77119831375398,29.59258017913615) scale(0.5968538622945694)"/><use id="star9" xlink:href="#star" transform="translate(276.7258095496876,239.5920708896752) scale(0.116597263533611)"/><use id="star10" xlink:href="#star" transform="translate(173.35553998558004,158.58701446816957) scale(0.116597263533611)"/><use id="star11" xlink:href="#star" transform="translate(146.22052178805416,287.9555902503209) scale(0.350620903685986)"/><use id="star12" xlink:href="#star" transform="translate(231.51979007529695,174.70037363270126) scale(0.003265306122448982)"/><use id="star13" xlink:href="#star" transform="translate(279.41627863696993,410.65636123552446) scale(0.6647646566062474)"/><use id="star14" xlink:href="#star" transform="translate(131.1385515660992,56.007318583421394) scale(0.4270169591216546)"/><use id="star15" xlink:href="#star" transform="translate(203.84207797780698,89.99108558016596) scale(0.19707910708020665)"/><use id="star16" xlink:href="#star" transform="translate(208.41636376499568,36.43303331833286) scale(0.36444897941973864)"/><use id="star17" xlink:href="#star" transform="translate(69.47386128982856,354.51887008744745) scale(0.6982548320510414)"/><use id="star18" xlink:href="#star" transform="translate(268.45904617395104,143.86023394003604) scale(0.05680689414480924)"/><use id="star19" xlink:href="#star" transform="translate(323.08647555345044,-132.13080203675173) scale(0.9493754109138727)"/><use id="star20" xlink:href="#star" transform="translate(324.61712112856856,318.14464452852724) scale(0.41656481643148535)"/><use id="star21" xlink:href="#star" transform="translate(231.88202186474473,-97.8814467196317) scale(0.8094175804610341)"/><use id="star22" xlink:href="#star" transform="translate(407.60996243088346,239.92412280474232) scale(0.47232450321253405)"/><use id="star23" xlink:href="#star" transform="translate(426.5193546869853,417.51743162797663) scale(0.8851233974825556)"/><use id="star24" xlink:href="#star" transform="translate(228.05799329049614,181.17833600902503) scale(0.004648760330578504)"/><use id="star25" xlink:href="#star" transform="translate(256.5732128132009,143.59493693113066) scale(0.04432132963988919)"/><use id="star26" xlink:href="#star" transform="translate(-9.520423158947949,331.66924021231057) scale(0.853869572183945)"/><use id="star27" xlink:href="#star" transform="translate(189.6498049091537,153.2818815349262) scale(0.08245722008260956)"/><use id="star28" xlink:href="#star" transform="translate(211.63123970913716,186.01776034414493) scale(0.024706046518459753)"/><use id="star29" xlink:href="#star" transform="translate(264.9775523178372,181.05918846751024) scale(0.01876524676299496)"/><use id="star30" xlink:href="#star" transform="translate(116.69869774585456,478.53942597659) scale(0.9493754109138727)"/><use id="star31" xlink:href="#star" transform="translate(-91.7294276201286,226.69675417865653) scale(0.9852400548696847)"/><use id="star32" xlink:href="#star" transform="translate(168.43302173081975,130.53114493523543) scale(0.16605147837151524)"/></g>
+    
+</svg>
