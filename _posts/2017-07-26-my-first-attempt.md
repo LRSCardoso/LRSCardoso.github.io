@@ -9,4 +9,4 @@ This is just my **first attempt**
 <br>
 just trying 
 <br>
-![image] ( /_images/g422.png)
+![image] ( /pics/g422.png)
