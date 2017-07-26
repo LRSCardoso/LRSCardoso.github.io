@@ -6,5 +6,7 @@ categories: newbie
 ---
 
 This is just my **first attempt**
-
+<br>
 just trying 
+<br>
+![Alt text] ( _images/testsvg.svg)
