@@ -8,6 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![image] (pics/g422.png)
-
-Format: ![Alt Text](/pics/g422.png)
+![Alt Text](/pics/g422.png)
