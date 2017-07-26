@@ -3,7 +3,7 @@ description: my raves about Data Vis, Maps, Qgis, Python, Postgres ..
 meta_description: "work in progress"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: True
 paginate: 15
 baseurl: /
@@ -13,4 +13,4 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'blog url'
-author:         'Your Name'
+author:         'LRSCardoso'
