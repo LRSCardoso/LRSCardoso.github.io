@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![Alt Text](/_images/testsvg.svg)
+![Alt Text](/_images/testesvg.svg)
