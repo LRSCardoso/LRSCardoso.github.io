@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![Alt Text](https://rawgithub.com/potherca/StackOverflow/gh-pages/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg)
+![Alt Text](https://github.com/LRSCardoso/LRSCardoso.github.io/blob/master/_images/testesvg.svg)
