@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![Alt text] (https://github.com/LRSCardoso/LRSCardoso.github.io/pics/g422.png)
+![Alt text] (https://github.com/LRSCardoso/LRSCardoso.github.io/tree/master/pics/g422.png)
