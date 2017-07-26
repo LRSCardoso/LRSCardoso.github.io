@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![Alt Text](https://rawgithub.com/LRSCardoso/LRSCardoso.github.io/blob/master/_images/testesvg.svg)
+![Alt Text](https://raw.githubusercontent.com/LRSCardoso/LRSCardoso.github.io/master/_images/testesvg.svg)
