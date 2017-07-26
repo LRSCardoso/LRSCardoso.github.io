@@ -8,4 +8,4 @@ categories: newbie
 This is just my **first attempt**
 <br>
 just trying 
-![image] (pics/g422.png ?raw=true )
+![image] (pics/g422.png ?raw=true "image")
