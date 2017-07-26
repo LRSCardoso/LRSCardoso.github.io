@@ -10,4 +10,4 @@ This is just my **first attempt**
 just trying 
 ![image] (pics/g422.png)
 
-Format: ![Alt Text](url)
+Format: ![Alt Text](pics/g422.png)
