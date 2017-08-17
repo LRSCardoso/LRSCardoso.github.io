@@ -12,4 +12,4 @@ work in progress.. in weekend i'll try to explain how the maps bellow were made
 ![Alt Text](http://LRSCardoso.github.io/mapa_linhas_populacao_lt.jpg)
 <br>
 globe version
-![Alt Text](http://LRSCardoso.github.io/mapa_linhas_populacao4.jpeg=150x)
+<img src="http://LRSCardoso.github.io/mapa_linhas_populacao4.jpeg" width="200" height="200" />
