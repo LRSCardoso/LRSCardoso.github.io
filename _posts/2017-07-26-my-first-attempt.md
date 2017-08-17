@@ -9,4 +9,4 @@ This is just my **first attempt**
 <br>
 work in progress.. in weekend i'll try to explain how the map was done
 <br>
-![Alt Text](././_images/mapa_linhas_populacao_lt.jpg)
+![Alt Text](LRSCardoso.github.io/_images/mapa_linhas_populacao_lt.jpg)
