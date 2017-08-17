@@ -11,5 +11,6 @@ work in progress.. in weekend i'll try to explain how the maps bellow were made
 <br>
 ![Alt Text](http://LRSCardoso.github.io/mapa_linhas_populacao_lt.jpg)
 <br>
-globe version
-<img src="http://LRSCardoso.github.io/mapa_linhas_populacao4.jpeg" width="500" height="500" />
+globe version 
+<br>
+<img src="http://LRSCardoso.github.io/mapa_linhas_populacao4.jpeg" width="700" height="700" />
