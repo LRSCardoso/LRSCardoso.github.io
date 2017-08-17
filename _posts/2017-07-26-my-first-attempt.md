@@ -7,6 +7,6 @@ categories: newbie
 
 This is just my **first attempt**
 <br>
-just trying 
+work in progress.. in weekend i'll try to explain how the map was done
 <br>
-![Alt Text](https://rawgit.com/LRSCardoso/LRSCardoso.github.io/master/_images/testesvg.svg)
+![Alt Text](https://rawgit.com/LRSCardoso/LRSCardoso.github.io/master/_images/mapa_linhas_populacao2.jpeg)
