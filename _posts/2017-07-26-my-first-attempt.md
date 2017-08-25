@@ -7,6 +7,10 @@ categories: newbie
 
 This is just my **first attempt**
 <br>
+
+![Alt Text](http://LRSCardoso.github.io/mapa_linhas_populacao_lt.jpg)
+
+<br>
 Taking the idea from the Population Lines Print by <http://spatial.ly/> / Dr James Cheshire i try to replicate with a twist on Qgis & Postgis. 
 <br>
 The first thing was to find the data in grid with the population of the world. <br>
@@ -53,9 +57,6 @@ the query i made is presented below:
   
 ```
 
-<br>
-
-![Alt Text](http://LRSCardoso.github.io/mapa_linhas_populacao_lt.jpg)
 
 <br>
 globe version 
