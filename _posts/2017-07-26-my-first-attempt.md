@@ -12,14 +12,14 @@ Taking the idea from the Population Lines Print by <http://spatial.ly/> / Dr Jam
 The first thing was to find the data in grid with the population of the world. <br>
 <http://sedac.ciesin.columbia.edu/> has a huge database very well documented.
 With the data in the hands, already with the projection wgs 84/Pseudo Mercator,  I sent it to the postgis database. <br>
-
+<br>
 
 So the first step was basically to build a query in which maked a new latitude field where added the population value to latitude.
 Then I had to define the data in clusters within proximity 15000, need this to not connect the islands to the continents as example.
 
-
+<br>
 Then I grouped the data by latitude (original), by country and by cluster, after that I just created a line connecting the points.
-
+<br>
 
 At this point I already had the world outlined with rows differentiated by latitudes, but I needed polygons, so I added in each line 3 points:
 
